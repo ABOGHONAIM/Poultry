@@ -1,0 +1,163 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.navbar {
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px -12px 36px #424242;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .logo a {
+  color: rgb(30, 13, 180);
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px;
+  transition: 0.4s;
+}
+.links ul li a {
+  margin: 0 30px;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.links ul li a:hover {
+  background-color: rgb(30, 13, 180);
+  color: white;
+  border-radius: 50%;
+}
+
+/* start making our products se setions */
+
+#products {
+  background-color: #ddd;
+}
+.ourproducts {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background-color: rgb(30, 13, 180);
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content {
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+}
+.content img {
+  background-color: black;
+  border-radius: 8px;
+}
+.info {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(30, 13, 180);
+}
+
+/* start our prices section */
+#prices {
+  background-color: #ddd;
+  padding: 15px;
+}
+
+.pricesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.product-price {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  width: 25%;
+}
+.product-price h3 {
+  font-weight: bolder;
+  font-size: 22px;
+  color: rgb(30, 13, 180);
+  padding: 10px;
+  text-align: center;
+}
+
+.product-price ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  text-align: start;
+  transition: 0.4s;
+}
+.product-price ul li:hover {
+  color: white;
+  background-color: rgb(30, 13, 180);
+  border-radius: 8px;
+}
+
+/* start making Our Contact us section */
+
+#contactus {
+  background-color: rgb(30, 13, 180);
+  color: #fff;
+  padding: 15px;
+}
+#contactus p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#contactus input {
+  padding: 10px;
+  width: 200px;
+}
+.submit {
+  cursor: pointer;
+  background-color: #ddd;
+  transition: 0.4s;
+}
+.submit:hover {
+  background-color: rgb(6, 133, 120);
+  color: #fff;
+}
+
+/* start making our footer */
+footer {
+  padding: 15px;
+  text-align: center;
+  color: black;
+  background-color: #ddd;
+}
